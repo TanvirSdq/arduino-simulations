@@ -31,3 +31,4 @@ wokwi.license
 .pio/
 .pioenvs/
 .piolibdeps/
+.vscode/
