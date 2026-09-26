@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "Tanvir",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 120, "left": 100, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 40, "left": 450, "attrs": { "horn": "single" } }
+  ],
+  "connections": [
+    [ "servo1:GND", "uno:GND.1", "black", [ "v0" ] ],
+    [ "servo1:V+", "uno:5V", "red", [ "v0" ] ],
+    [ "servo1:PWM", "uno:9", "green", [ "v0" ] ]
+  ]
+}

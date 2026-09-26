@@ -1,0 +1,33 @@
+# Compiled binaries and build directories
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+*.o
+*.a
+*.d
+
+# Wokwi Simulator
+wokwi.license
+*.license
+
+# VS Code (preserve shared workspace configs, ignore local state)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+*.code-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# PlatformIO / Arduino IDE temp files
+.pio/
+.pioenvs/
+.piolibdeps/
